@@ -80,7 +80,7 @@ jQuery(document).ready(function($) {
                 elementorProFrontend.modules.popup.showPopup({ id: '1814' });
     
             } else {
-                url = 'https://app.uniswap.org/#/tokens/ethereum/0x8b227d72570d3ead66014bca8305cbef7f90d1ee';
+                url = 'https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x2778f28a30bE005FEFbEB77272740Af92b09d28C#/tokens/ethereum/0x8b227d72570d3ead66014bca8305cbef7f90d1ee';
                 window.open(url, '_blank');
             }
         });
@@ -98,7 +98,7 @@ jQuery(document).ready(function($) {
                 elementorProFrontend.modules.popup.showPopup({ id: '1814' });
     
             } else {
-                url = 'https://app.uniswap.org/#/tokens/ethereum/0x8b227d72570d3ead66014bca8305cbef7f90d1ee';
+                url = 'https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x2778f28a30bE005FEFbEB77272740Af92b09d28C#/tokens/ethereum/0x8b227d72570d3ead66014bca8305cbef7f90d1ee';
                 window.open(url, '_blank');
             }
         });
@@ -106,7 +106,7 @@ jQuery(document).ready(function($) {
             localStorage.setItem('lastPopupDate', currentDate);
             jQuery('#elementor-popup-modal-1814').remove();
             
-            url = 'https://app.uniswap.org/#/tokens/ethereum/0x8b227d72570d3ead66014bca8305cbef7f90d1ee';
+            url = 'https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x2778f28a30bE005FEFbEB77272740Af92b09d28C#/tokens/ethereum/0x8b227d72570d3ead66014bca8305cbef7f90d1ee';
                 window.open(url, '_blank');
           });  
     });
